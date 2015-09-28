@@ -1,0 +1,28 @@
+{
+  "name": "deep-partition-layout",
+  "version": "1.0.0",
+  "description": "A fork of d3's partition layout which includes the values of inner nodes in its final sums",
+  "main": "index.out.js",
+  "scripts": {
+    "test": "npm run test:lint && npm run test:tape",
+    "test:lint": "standard index.js test.js",
+    "test:tape": "babel-node test.js | tap-spec",
+    "prepublish": "babel index.js -o index.out.js"
+  },
+  "license": "MIT",
+  "repository": "nodesource/deep-partition-layout",
+  "author": "NodeSource <npm@nodesource.com> (https://nodesource.com/)",
+  "contributors": [
+    "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)"
+  ],
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "clone": "^1.0.2",
+    "standard": "^5.1.1",
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.0"
+  },
+  "dependencies": {
+    "deep-hierarchy": "^1.0.1"
+  }
+}
