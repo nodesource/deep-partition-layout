@@ -76,4 +76,4 @@ Contributions are welcomed from anyone wanting to improve this project!
 
 ## License & Copyright
 
-**deep-partition-layout** is Copyright (c) 2015 NodeSource and licensed under the MIT license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE.md file for more details.
+**deep-partition-layout** is Copyright (c) 2015 NodeSource and licensed under the MIT license. All rights not explicitly granted in the MIT license are reserved. See the included [LICENSE.md](./LICENSE.md) file for more details.
